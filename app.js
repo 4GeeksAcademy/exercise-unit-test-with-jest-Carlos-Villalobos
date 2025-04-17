@@ -7,7 +7,7 @@ console.log(sum(7,3));
 
 
 const fromDollarToYen = (dolar) => {
-    return 0.0068 * dolar;
+    return dolar * 143;
 }
 
 const fromEuroToDollar = (euro) => {
@@ -15,7 +15,7 @@ const fromEuroToDollar = (euro) => {
 }
 
 const fromYenToPound = (yen) => {
-    return 0.0053 * yen;
+    return 0.01 * yen;
 }
 
 module.exports = {sum,fromDollarToYen, fromEuroToDollar, fromYenToPound};
